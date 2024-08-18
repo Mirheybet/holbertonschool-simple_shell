@@ -17,4 +17,6 @@
 extern char **environ;
 void execute_command(char **args, char *path);
 void devide_commands(char* commands, char** commands_array);
+void entry_command(char *u_command, char **args);
+void passionate_commands_array(char **commands_array);
 #endif

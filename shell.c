@@ -36,6 +36,25 @@ void execute_commands(char **args, char *path)
 		}
 	}
 }
+/**
+ * entry_command - func for parsing command
+ * @u_command: command to be parsed
+ * @args: arguments to command
+*/
+void entry_command(char *u_command, char **args)
+{
+	char *command = strtok(u_command, " \t");
+	int i = 0;
+
+	args[0] = NULL;
+	while (command != NULL && i < MAX_LEN - 1)
+	{
+		args[i] = command;
+		i++;
+		command = strtok(NULL, "\t");
+	}
+	args[i] = NULL;
+}
 
 /**
  * devide_commands - commands processor func
@@ -55,8 +74,30 @@ void devide_commands(char* commands, char** commands_array)
 		a++;
 	}
 	commands_array[a] = NULL;
+	}
+	
+/**
+ * passionate_commands_array - func for handling array of commands
+ * @commands_array: array of commands
+ */
+void passionate_commands_array(char **commands_array)
+{
+	int a = 0;
+	char *command;
+	if (strcmp(commands_array[a], "exit") == 0)
+		exit(0);
+	else if (strmcp(commands_array[a], "env") == 0)
+		print_env();
+	else
+		while (commands_array[a] != NULL)
+		{
+			command = commands_array[a];
+			if (strcmp(command, "exit") == 0 && a > 0)
+				exit(2);
+			passionate_command(command);
+			a++;
+		}
 }
-
 /**
  * main - main func to process all functions
  * Return: integer
