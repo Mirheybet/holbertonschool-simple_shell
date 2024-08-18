@@ -78,10 +78,10 @@ void devide_commands(char* commands, char** commands_array)
 	}
 	
 /**
- * passionate_commands_array - func for handling array of commands
+ * handle_commands_array - func for handling array of commands
  * @commands_array: array of commands
  */
-void passionate_commands_array(char **commands_array)
+void handle_commands_array(char **commands_array)
 {
 	int a = 0;
 	char *command;
@@ -95,7 +95,7 @@ void passionate_commands_array(char **commands_array)
 			command = commands_array[a];
 			if (strcmp(command, "exit") == 0 && a > 0)
 				exit(2);
-			passionate_commands_array(commands_array);
+			handle_commands_array(commands_array);
 			a++;
 		}
 }
