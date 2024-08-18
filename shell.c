@@ -10,6 +10,20 @@
 #define MAX_LEN 100
 #define PROMPT ">> "
 /**
+ * execute_command - func for executing command
+ * @args: arguments to path
+ * @path: path
+ */
+void execute_commands(char **args, char *path)
+{
+	pid_t pid;
+	int ststaus;
+	pid = fork();
+	if (pid == -1)
+	{
+		p
+
+/**
  * devide_commands - commands processor func
  * @commands: commands
  * @commands_array: array for all commands
@@ -28,6 +42,7 @@ void devide_commands(char* commands, char** commands_array)
 	}
 	commands_array[a] = NULL;
 }
+
 /**
  * main - main func to process all functions
  * Return: integer
