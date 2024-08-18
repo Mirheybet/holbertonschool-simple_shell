@@ -29,3 +29,17 @@ int main (void){
 	}
 	return (0);
 }
+int main_helper (void){
+    int status;
+    char *args[2];
+
+    args[0] = "/bin/ls";
+    args[1] = NULL;
+
+    if ( fork() == 0 )
+        execv( args[0], args );
+    else
+        wait( &status );
+
+    return 0;
+}
