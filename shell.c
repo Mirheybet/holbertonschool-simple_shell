@@ -9,10 +9,33 @@
 #include <errno.h>
 #define MAX_LEN 100
 #define PROMPT ">> "
+/**
+ * devide_commands - commands processor func
+ * @commands: commands
+ * @commands_array: array for all commands
+*/
+void devide_commands(char* commands, char** commands_array)
+{
+	char *command;
+	int a = 0;
 
+	command = strtok(commands,"\n");
+	while (command != NULL)
+	{
+		commands_array[a] = command;
+		command = strtok(NULL, "\n");
+		a++;
+	}
+	commands_array[a] = NULL;
+}
+/**
+ * main - main func to process all functions
+ * Return: integer
+ */
 
 int main (void){
 	char command[MAX_LEN];
+	char *commands_array[MAX_LEN];
 
 	while (1)
 	{
@@ -24,22 +47,9 @@ int main (void){
 			perror("Error reading command");
 			continue;
 		}
-
+		
 		command[strcspn(command, "\n")] = '\0';
+		devide_commands(command, commands_array);
 	}
 	return (0);
-}
-int main_helper (void){
-    int status;
-    char *args[2];
-
-    args[0] = "/bin/ls";
-    args[1] = NULL;
-
-    if ( fork() == 0 )
-        execv( args[0], args );
-    else
-        wait( &status );
-
-    return 0;
 }
