@@ -1,15 +1,5 @@
-#define PATH "PATH="
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <errno.h>
 #define MAX_LEN 100
-#define PROMPT ">> "
 /**
  * execute_command - func for executing command
  * @args: arguments to path
@@ -38,7 +28,7 @@ void execute_commands(char **args, char *path)
 	}
 	else
 	{
-		if (wait(&status) == -1)
+		if (wait(&ststaus) == -1)
 		{
 			free(path);
 			perror("wait failed");
