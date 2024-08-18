@@ -16,7 +16,7 @@ void execute_commands(char **args, char *path)
 	{
 		perror("fork failed");
 		exit(EXIT_FAILURE);
-	}
+}
 	else if (pid == 0)
 	{
 		if (execve(path, args, environ) == -1)
@@ -86,7 +86,7 @@ void passionate_commands_array(char **commands_array)
 	char *command;
 	if (strcmp(commands_array[a], "exit") == 0)
 		exit(0);
-	else if (strmcp(commands_array[a], "env") == 0)
+	else if (strcmp(commands_array[a], "env") == 0)
 		print_env();
 	else
 		while (commands_array[a] != NULL)
@@ -94,7 +94,7 @@ void passionate_commands_array(char **commands_array)
 			command = commands_array[a];
 			if (strcmp(command, "exit") == 0 && a > 0)
 				exit(2);
-			passionate_command(command);
+			passionate_commands(command);
 			a++;
 		}
 }
