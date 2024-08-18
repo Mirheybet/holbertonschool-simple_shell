@@ -1,45 +1,42 @@
-#!/bin/bash
-echo ".\" Manual page for MyShell
-.TH MySHELL 1 "2023-12-30" "Version 1.0.1.1"
+.TH SIMPLE_SHELL 1 "May 2024" "Simple Shell Manual"
 .SH NAME
- myshell \-a simple command-line interpreter
+simple_shell - A simple shell implementation
+
 .SH SYNOPSIS
- ./myshell
+simple_shell
+
 .SH DESCRIPTION
-MyShell is a simple UNIX command interpreter that reads commands from the standard input or from a file and executes them. This shell allows you to run programs and scripts, redirect input and output, and chain commands together.
-.B MyShell
-without a script file name to execute commands as needed.
+simple_shell is a basic command-line interpreter that allows users to execute commands and interact with the operating system. It provides a straightforward interface for executing commands and managing processes.
+
 .SH OPTIONS
-The MyShell does not support options in this version.
+There are no command-line options for simple_shell.
+
+.SH COMMANDS
+simple_shell supports the following commands:
+
+.IP "command1 [arguments]" 4
+Executes the specified command with the given arguments.
+
+.IP "command2 [arguments]" 4
+Executes another command with the given arguments.
+
 .SH EXIT STATUS
-.B MyShell
-returns last executed commands return value or 0 if shell terminated without using any command.
+The simple_shell command returns the following exit status values:
+
+.IP "0" 4
+Indicates successful execution.
+
+.IP "1" 4
+Indicates that an error occurred during command execution.
+
 .SH EXAMPLES
-.B MyShell:
-.PP
-Executing a single command:
-.PP
-cisfun$ echo "Hello World"
-.RE
-.PP
-.SH ENVIRONMENT
-The execution of scripts by
-.B simple_shell
-might be influenced by the following environment variables:
-.PP
-.HOME
-The home directory of the current user.
-.PP
-.PATH
-A colon-separated list of directories used to find commands.
-.SH FILES
-.I ./MyShell
-Executable for the simple shell.
+To execute a command, type the command followed by any necessary arguments:
+
+.IP "$ simple_shell command1 arg1 arg2" 4
+
+.SH SEE ALSO
+bash(1), sh(1)
+
 .SH AUTHOR
-Orkhan Mahmudov <orkhan_ibrahim@mail.ru>
-.br
-Mirheybat Hasanov <mirheybet.hesenov@gmail.com>
-" > myshell.1
-mv myshell.1 /usr/local/man/man1/
-gzip -f /usr/local/man/man1/myshell.1
-man myshell
+Orkhan Mahmudov <Orkhanibrahim357>
+Mirheybet Hasanov <Mirheybet>
