@@ -10,14 +10,12 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <dirent.h>
-
 #define MAX_LEN 100
 #define PROMPT ">> "
 #define PATH "PATH="
 
 extern char **environ;
 void devide_commands(char* commands, char** commands_array);
-
 void handle_command(char *u_command);
 void print_env(void);
 void setup_environment(char **path_env, char **path);
