@@ -14,3 +14,6 @@
 #define MAX_LEN 100
 #define PROMPT ">> "
 #define PATH "PATH="
+extern char **envirom;
+void execute_command(char **args, char *path);
+void devide_commands(char* commands, char** commands_array);
