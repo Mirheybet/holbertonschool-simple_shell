@@ -1,5 +1,6 @@
 #include "main.h"
 #define MAX_LEN 100
+
 /**
  * execute_command - func for executing command
  * @args: arguments to path
@@ -94,7 +95,7 @@ void passionate_commands_array(char **commands_array)
 			command = commands_array[a];
 			if (strcmp(command, "exit") == 0 && a > 0)
 				exit(2);
-			passionate_commands(command);
+			passionate_commands_array(commands_array);
 			a++;
 		}
 }
