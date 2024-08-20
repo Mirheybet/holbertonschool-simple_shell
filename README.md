@@ -67,10 +67,7 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ## We expect great adventures from Holberton Schhol over the next three months !
 
-![hasbulla](https://github.com/user-attachments/assets/f8e39f4e-62ee-42eb-9cd7-58f051f83d20)
-
-![hasbulla](https://github.com/user-attachments/assets/36b4ff4e-b0e4-4548-9305-f787c573ab3a)
-![hasbulla-hasbullah](https://github.com/user-attachments/assets/04d33071-303f-41e3-97e1-82d173fbc4b0)
+![hasbulla](https://github.com/user-attachments/assets/f8e39f4e-62ee-42eb-9cd7-58f051f83d20) ![hasbulla](https://github.com/user-attachments/assets/36b4ff4e-b0e4-4548-9305-f787c573ab3a) ![hasbulla-hasbullah](https://github.com/user-attachments/assets/04d33071-303f-41e3-97e1-82d173fbc4b0)
 
 
 
