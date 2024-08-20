@@ -1,8 +1,4 @@
 # Basic Shell
-![GIF about codinghttps://i.gifer.com/YnA.gif](https://github.com/Orkhanibrahim357/holbertonschool-simple_shell/blob/main/gif/YnA.gif)
-
-
-![GIF about coding//giphy.com/gifs](https://github.com/Orkhanibrahim357/holbertonschool-simple_shell/blob/main/gif/YnA.gif)
 
 
 ## Overview
