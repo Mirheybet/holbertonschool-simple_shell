@@ -1,7 +1,4 @@
 # Basic Shell
-
-![coding-kira](https://github.com/user-attachments/assets/8ff9788d-959f-4cb7-bcba-3978462cf76f)
-
 ![malkq-cuka](https://github.com/user-attachments/assets/a39f09a9-94c9-4527-b873-442c94155607)
 
 ## Overview
@@ -59,6 +56,8 @@ Contributions are what make the open-source community an amazing place to learn,
 ##  Authors Mirheybet and Orkhan on 12-24 August
 
 ![hasbula-hasbulla](https://github.com/user-attachments/assets/cad16387-5f75-4b6b-80d6-1c3afb5025b8)
+![hasbulla](https://github.com/user-attachments/assets/ea3d171e-7669-4acf-a5d7-843485e53199)
+
 
 ## And finally we finished the C programming language thank you for everything C programming we had a nice adventure in these 3 months we hope to see you again
 ![hasbulla-hug](https://github.com/user-attachments/assets/b6afc5f9-5a91-4895-9f1b-56bd74a7038c)
