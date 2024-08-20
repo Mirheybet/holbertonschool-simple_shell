@@ -21,6 +21,11 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o MyShell
 ```bash
 ./MyShell
 ```
+## Flowchart
+
+![shell drawio](https://github.com/user-attachments/assets/b8acdf0c-82e2-4047-a756-b40d71c00665)
+
+ 
 
 ## Custom Commands
 
