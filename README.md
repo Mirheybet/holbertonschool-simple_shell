@@ -62,10 +62,15 @@ Contributions are what make the open-source community an amazing place to learn,
 ## And finally we finished the C programming language thank you for everything C programming we had a nice adventure in these 3 months we hope to see you again
 ![hasbulla-hug](https://github.com/user-attachments/assets/b6afc5f9-5a91-4895-9f1b-56bd74a7038c)
 ![hasbulla-hug](https://github.com/user-attachments/assets/c885dc56-7892-4bae-879e-f6f59fe2d9f4)
+![m4kktruck-getintoitya](https://github.com/user-attachments/assets/c9aa4b69-01ab-47ac-bc64-33545e436d64)
+
 
 ## We expect great adventures from Holberton Schhol over the next three months !
 
 ![hasbulla](https://github.com/user-attachments/assets/f8e39f4e-62ee-42eb-9cd7-58f051f83d20)
+
+![hasbulla](https://github.com/user-attachments/assets/36b4ff4e-b0e4-4548-9305-f787c573ab3a)
+![hasbulla-hasbullah](https://github.com/user-attachments/assets/04d33071-303f-41e3-97e1-82d173fbc4b0)
 
 
 
