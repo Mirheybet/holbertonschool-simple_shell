@@ -1,5 +1,8 @@
 # Basic Shell
 
+![coding-kira](https://github.com/user-attachments/assets/8ff9788d-959f-4cb7-bcba-3978462cf76f)
+
+![malkq-cuka](https://github.com/user-attachments/assets/a39f09a9-94c9-4527-b873-442c94155607)
 
 ## Overview
 Basic Shell is a simple, interactive command line interpreter that provides a user interface to access the operating system's services. It is designed to execute commands and manage your files and processes.
@@ -53,7 +56,19 @@ Contributions are what make the open-source community an amazing place to learn,
 |----------------|---------------------------------------------------|
 | [AUTHORS](https://github.om/Orkhanibrahim357/holbertonschool-simple_shell/blob/main/AUTHORS)           | Contributors in this repository                                 |
 | [man_1_simple_shell](https://github.com/Mirheybet/holbertonschool-simple_shell/blob/main/man_1_simple_shell)           | Information about our repository                          |
-## Authors
+##  Authors Mirheybet and Orkhan on 12-24 August
 
-- Orkhan Mahmudvo 
+![hasbula-hasbulla](https://github.com/user-attachments/assets/cad16387-5f75-4b6b-80d6-1c3afb5025b8)
+
+## And finally we finished the C programming language thank you for everything C programming we had a nice adventure in these 3 months we hope to see you again
+![hasbulla-hug](https://github.com/user-attachments/assets/b6afc5f9-5a91-4895-9f1b-56bd74a7038c)
+![hasbulla-hug](https://github.com/user-attachments/assets/c885dc56-7892-4bae-879e-f6f59fe2d9f4)
+
+## We expect great adventures from Holberton Schhol over the next three months !
+
+![hasbulla](https://github.com/user-attachments/assets/f8e39f4e-62ee-42eb-9cd7-58f051f83d20)
+
+
+
+- Orkhan Mahmudov
 - Mirheybet Hasanov
