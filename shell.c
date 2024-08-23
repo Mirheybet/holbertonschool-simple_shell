@@ -67,7 +67,7 @@ void devide_commands(char *commands, char **commands_array)
 	char *command;
 	int a = 0;
 
-	command = strtok(commands,"\n");
+	command = strtok(commands, "\n");
 	while (command != NULL)
 	{
 		commands_array[a] = command;
