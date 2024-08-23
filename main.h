@@ -15,7 +15,7 @@
 #define PATH "PATH="
 
 extern char **environ;
-void devide_commands(char* commands, char** commands_array);
+void devide_commands(char *commands, char **commands_array);
 void handle_command(char *u_command);
 void print_env(void);
 void setup_environment(char **path_env, char **path);
