@@ -62,7 +62,7 @@ void entry_command(char *u_command, char **args)
  * @commands: commands
  * @commands_array: array for all commands
 */
-void devide_commands(char* commands, char** commands_array)
+void devide_commands(char *commands, char **commands_array)
 {
 	char *command;
 	int a = 0;
