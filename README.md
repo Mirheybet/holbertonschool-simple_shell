@@ -49,7 +49,7 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ## Content of File
 
-|  Files         | Description for files                             |
+|  File          | Description                                       |
 |----------------|---------------------------------------------------|
 | [AUTHORS](https://github.om/Orkhanibrahim357/holbertonschool-simple_shell/blob/main/AUTHORS)           | Contributors in this repository                                 |
 | [man_1_simple_shell](https://github.com/Mirheybet/holbertonschool-simple_shell/blob/main/man_1_simple_shell)           | Information about our repository                          |
