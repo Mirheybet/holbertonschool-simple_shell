@@ -1,5 +1,7 @@
-// print_env.c
 #include <stdio.h>
+
+
+
 
 void print_env() {
     extern char **environ;
