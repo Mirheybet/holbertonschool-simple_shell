@@ -76,7 +76,7 @@ void devide_commands(char *commands, char **commands_array)
 	}
 	commands_array[a] = NULL;
 	}
-	
+
 /**
  * handle_commands_array - func for handling array of commands
  * @commands_array: array of commands
