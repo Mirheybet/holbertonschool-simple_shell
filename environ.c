@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_env - func for printing rnv
- */
+*/
 void print_env(void)
 {
 	char **env_ptr = environ;
