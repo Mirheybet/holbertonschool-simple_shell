@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * execute_command - for exec
+ * @args: arguments
+ * @path: for PATH
+ *
+ */
+
 void execute_command(char **args, char *path)
 {
 	pid_t pid;
