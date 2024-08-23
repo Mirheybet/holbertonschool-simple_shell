@@ -53,7 +53,7 @@ Contributions are what make the open-source community an amazing place to learn,
 |----------------|---------------------------------------------------|
 | [AUTHORS](https://github.om/Orkhanibrahim357/holbertonschool-simple_shell/blob/main/AUTHORS)           | Contributors in this repository                                 |
 | [man_1_simple_shell](https://github.com/Mirheybet/holbertonschool-simple_shell/blob/main/man_1_simple_shell)           | Information about our repository                          |
-##  Authors Mirheybet Hasanov and Orkhan Makhmudov on 12-23 August
+##  Authors Mirheybet and Orkhan  on 12-24 August
 
 ![hasbula-hasbulla](https://github.com/user-attachments/assets/cad16387-5f75-4b6b-80d6-1c3afb5025b8)
 ![hasbulla](https://github.com/user-attachments/assets/ea3d171e-7669-4acf-a5d7-843485e53199)
