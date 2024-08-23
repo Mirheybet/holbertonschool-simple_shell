@@ -1,12 +1,16 @@
 #include <stdio.h>
+#include "main.h"
 
+/**
+ * print_env - env
+ */
+void print_env(void)
+{
+	char **env_ptr = environ;
 
-
-
-void print_env() {
-    extern char **environ;
-    for (char **current = environ; *current; ++current) {
-        printf("%s\n", *current);
-    }
+	while (*env_ptr != NULL)
+	{
+		printf("%s\n", *env_ptr);
+		env_ptr++;
+	}
 }
-

@@ -13,7 +13,6 @@
 #define MAX_LEN 100
 #define PROMPT ">> "
 #define PATH "PATH="
-
 extern char **environ;
 void devide_commands(char *commands, char **commands_array);
 void handle_command(char *u_command);
