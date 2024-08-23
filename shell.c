@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * execute_command - func for executing command
  * @args: arguments to path
@@ -34,11 +35,12 @@ void execute_command(char **args, char *path)
 		}
 	}
 }
+
 /**
  * parse_command - func for parsing command
  * @u_command: command to be parsed
  * @args: arguments to command
-*/
+ */
 void parse_command(char *u_command, char **args)
 {
 	char *command = strtok(u_command, " \t");
@@ -53,11 +55,12 @@ void parse_command(char *u_command, char **args)
 	}
 	args[i] = NULL;
 }
+
 /**
  * process_commands - commands processor func
  * @commands: commands
  * @commands_array: array for all commands
-*/
+ */
 void process_commands(char *commands, char **commands_array)
 {
 	char *command;
@@ -72,6 +75,7 @@ void process_commands(char *commands, char **commands_array)
 	}
 	commands_array[a] = NULL;
 }
+
 /**
  * handle_commands_array - func for handling array of commands
  * @commands_array: array of commands
@@ -95,31 +99,40 @@ void handle_commands_array(char **commands_array)
 			a++;
 		}
 }
+
 /**
- * main - main func to process all functions
- * Return: integer
+ * handle_path - func for handling path
+ * @args: arguments to path
+ * @path: path
+ * @path_env: environment path
+ * @found: int variable
  */
-int main(void)
+void handle_path(char **args, char **path, char **path_env, int *found)
 {
-	char commands[MAX_LEN];
-	char *commands_array[MAX_LEN];
-	ssize_t read_size;
+	char *path_token = NULL;
 
-	while (1)
+	if (*path_env == NULL)
 	{
-		read_size = read(STDIN_FILENO, commands, MAX_LEN);
-		if (read_size == -1)
-		{
-			perror("Error reading command");
-			exit(EXIT_FAILURE);
-		}
-		else if (read_size == 0)
-			break;
-		commands[read_size] = '\0';
-
-		process_commands(commands, commands_array);
-		handle_commands_array(commands_array);
+		fprintf(stderr, "./hsh: 1: %s: not found\n", args[0]);
+		free(*path_env);
+		free(*path);
+		exit(127);
 	}
-	return (0);
+	path_token = strtok(*path_env, ":");
+
+	while (path_token != NULL)
+	{
+		strcpy(*path, path_token);
+		strcat(*path, "/");
+		strcat(*path, args[0]);
+		if (access(*path, X_OK) != -1)
+		{
+			*found = 1;
+			break;
+		}
+		path_token = strtok(NULL, ":");
+	}
+	free(*path_env);
 }
+
 
