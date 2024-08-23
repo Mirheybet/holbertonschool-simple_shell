@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * handle_commands_array - for handle
+ * @commands_array: for commands
+ */
+
 void handle_commands_array(char **commands_array)
 {
 	int a = 0;
